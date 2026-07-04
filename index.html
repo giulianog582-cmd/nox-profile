@@ -4,13 +4,11 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>✦ NOX</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,7 +21,9 @@
 
 <body>
 
-<img src="assets/background.png" class="background">
+<video autoplay muted loop playsinline class="background">
+    <source src="background.mp4" type="video/mp4">
+</video>
 
 <div class="overlay"></div>
 
@@ -41,7 +41,7 @@
 
 <audio id="music" loop>
 
-<source src="assets/music.mp3">
+<source src="music.mp3" type="audio/mpeg">
 
 </audio>
 
@@ -49,7 +49,7 @@
 
 <div class="avatar-box">
 
-<img src="assets/avatar.jpg" class="avatar">
+<img src="avatar.jpg" class="avatar">
 
 </div>
 
@@ -58,14 +58,13 @@
 <p>
 
 Nu urmăresc visul.<br>
-
 Îl construiesc.
 
 </p>
 
 <div class="discord-box">
 
-<img src="assets/avatar.jpg">
+<img src="avatar.jpg">
 
 <div>
 
@@ -81,22 +80,16 @@ Nu urmăresc visul.<br>
 
 <div class="socials">
 
-<a href="https://instagram.com/giuliano.nkl">
-
+<a href="https://instagram.com/giuliano.nkl" target="_blank">
 <i class="fab fa-instagram"></i>
-
 </a>
 
-<a href="https://discord.gg/hnQCsjPKw">
-
+<a href="https://discord.gg/hnQCsjPKw" target="_blank">
 <i class="fab fa-discord"></i>
-
 </a>
 
 <a href="#">
-
 <i class="fab fa-tiktok"></i>
-
 </a>
 
 </div>
@@ -109,15 +102,7 @@ Nu urmăresc visul.<br>
 
 </button>
 
-<input type="range"
-
-id="volume"
-
-min="0"
-
-max="100"
-
-value="20">
+<input type="range" id="volume" min="0" max="100" value="20">
 
 </div>
 
@@ -125,11 +110,7 @@ value="20">
 
 <i class="fa-solid fa-eye"></i>
 
-<span id="counter">
-
-0
-
-</span>
+<span id="counter">0</span>
 
 </div>
 
@@ -138,5 +119,4 @@ value="20">
 <script src="script.js"></script>
 
 </body>
-
 </html>
