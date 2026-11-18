@@ -31,7 +31,8 @@ play.addEventListener("click", () => {
         music.pause();
         play.innerHTML = '<i class="fa-solid fa-play"></i>';
 
-    }
+    }https://tools.ietf.org/html/rfc7692
+    
 
 });
 
